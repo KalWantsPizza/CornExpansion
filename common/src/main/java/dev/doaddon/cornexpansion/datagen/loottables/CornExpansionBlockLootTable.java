@@ -15,10 +15,5 @@ public class CornExpansionBlockLootTable extends FabricBlockLootTableProvider {
 
     @Override
     public void generate() {
-        dropOther(CornExpansionObjects.POPCORN_TIN_BLOCK.get(), Items.BUCKET);
-        dropOther(CornExpansionObjects.SWEET_POPCORN_TIN_BLOCK.get(), Items.BUCKET);
-        dropOther(CornExpansionObjects.BUTTERY_POPCORN_TIN_BLOCK.get(), Items.BUCKET);
-        dropOther(CornExpansionObjects.CHEESY_POPCORN_TIN_BLOCK.get(), Items.BUCKET);
-        dropOther(CornExpansionObjects.CANDIED_POPCORN_TIN_BLOCK.get(), Items.BUCKET);
     }
 }

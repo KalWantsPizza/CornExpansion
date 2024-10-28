@@ -110,27 +110,27 @@ public class CornExpansionRecipes extends FabricRecipeProvider {
         // Popcorn Tins
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, CornExpansionObjects.POPCORN_TIN.get(), 1)
                 .requires(CornExpansionObjects.POPCORN.get(), 8)
-                .requires(Items.BUCKET)
+                .requires(Items.PAPER)
                 .unlockedBy("has_popcorn", FabricRecipeProvider.has(CornExpansionObjects.POPCORN.get()))
                 .save(exporter);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, CornExpansionObjects.SWEET_POPCORN_TIN.get(), 1)
                 .requires(CornExpansionObjects.SWEET_POPCORN.get(), 8)
-                .requires(Items.BUCKET)
+                .requires(Items.PAPER)
                 .unlockedBy("has_sweet_popcorn", FabricRecipeProvider.has(CornExpansionObjects.SWEET_POPCORN.get()))
                 .save(exporter);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, CornExpansionObjects.BUTTERY_POPCORN_TIN.get(), 1)
                 .requires(CornExpansionObjects.BUTTERY_POPCORN.get(), 8)
-                .requires(Items.BUCKET)
+                .requires(Items.PAPER)
                 .unlockedBy("has_buttery_popcorn", FabricRecipeProvider.has(CornExpansionObjects.BUTTERY_POPCORN.get()))
                 .save(exporter);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, CornExpansionObjects.CHEESY_POPCORN_TIN.get(), 1)
                 .requires(CornExpansionObjects.CHEESY_POPCORN.get(), 8)
-                .requires(Items.BUCKET)
+                .requires(Items.PAPER)
                 .unlockedBy("has_cheesy_popcorn", FabricRecipeProvider.has(CornExpansionObjects.CHEESY_POPCORN.get()))
                 .save(exporter);
         ShapelessRecipeBuilder.shapeless(RecipeCategory.FOOD, CornExpansionObjects.CANDIED_POPCORN_TIN.get(), 1)
                 .requires(CornExpansionObjects.CANDIED_POPCORN.get(), 8)
-                .requires(Items.BUCKET)
+                .requires(Items.PAPER)
                 .unlockedBy("has_candied_popcorn", FabricRecipeProvider.has(CornExpansionObjects.CANDIED_POPCORN.get()))
                 .save(exporter);
     }
